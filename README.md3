@@ -1,0 +1,35 @@
+# Flask basics:-
+Actually flask framework works with both Sql realtional databases and nosql databases.
+The key to this freedom is that Flask was designed from the start to be extended. It comes
+with a robust core that includes the basic functionality that all web applications need
+and expects the rest to be provided by some of the many third-party extensions in the
+ecosystem.
+The most convenient way to install Flask is to use a virtual environment. A virtual environment is a private copy of the Python interpreter onto which you can install
+packages privately, without affecting the global Python interpreter installed in your system. Virtual environments are very useful because they prevent package clutter and version
+conflicts in the system’s Python interpreter. Creating a virtual environment for each
+application ensures that applications have access to only the packages that they use, while the global interpreter remains neat and clean and serves only as a source from
+which more virtual environments can be created. As an added benefit, virtual environ‐ ments don’t require administrator rights.
+
+## Flask instalation:-
+To install Flask into the virtual environment, use the following command:
+(venv) $ pip install flask
+With this command, Flask and its dependencies are installed in the virtual environment.
+You can verify that Flask was installed correctly by starting the Python interpreter and
+trying to import it:
+(venv) $ python
+>>> import flask
+>>>
+If no errors appear, you can congratulate yourself: you are ready for the next chapter,
+where you will write your first web application.
+
+## Initializing flask:-
+Initialization
+All Flask applications must create an application instance. The web server passes all
+requests it receives from clients to this object for handling, using a protocol called Web
+Server Gateway Interface (WSGI). The application instance is an object of class Flask,
+usually created as follows:
+from flask import Flask
+app = Flask(__name__)
+The only required argument to the Flask class constructor is the name of the main
+module or package of the application. For most applications, Python’s __name__ variable
+is the correct value.
