@@ -1,0 +1,94 @@
+### Machine learning:-
+Machine learning is an application of artificial intelligence (AI) that provides systems the ability to automatically learn and improve from experience without being explicitly
+programmed. Machine learning focuses on the development of computer programs that can access data and use it to learn for themselves.
+
+# Machine learning with Python:-
+Python is one of the most commonly used languages to build machine learning systems. Most of the resources in this learning path are drawn from top-notch Python conferences
+such as PyData and PyCon, and created by highly regarded data scientists.
+
+# Data Wrangling:-
+As Machine learning is used to extract information from data so the data must be clean up to a level so thet it can be feeded to machine learning algorithm.
+We cant directly put data to a ML algo. Data must be cleaned before training.
+So a data scientist must clean the data and most of the time of a data scientist goes in cleaning of data. 
+ Cleaning of Data have following steps and methods:-
+ 1) Dealing with Null values, if any coloumn of our data hae h null value we must fill it. if the coloumn is og=f integer type we can fill the null value with average of all the 
+ values of that coloumn, and if the coloumn type is string than we fill it with the mode(coloumn)
+ 2) We can also remove some coloumn using co-linerarity method
+ 3) Dropping unnecessary columns in a DataFrame.
+ 4) Reducing data for proper data handling.
+
+# There is several type of Machine learning
+1) Supervised Machine learning
+2) Unsupervised Machine Learaning
+3) Reinforcement Machine Learning
+
+# Supervised Machine Learning:-
+Supervised learning, also known as supervised machine learning, is a subcategory of machine learning and artificial intelligence. It is defined by its use of labeled 
+datasets to train algorithms that to classify data or predict outcomes accurately
+e.g) y = mx + c, as we know y is function of x if we know the value of x we can find y.
+y =  will be the value we will predict
+m = will b the slope of the function further we will see m will be known as weights
+x = x is the features(label)
+# Supervised machine learnig algorithms:-
+1) Regression:-  A regression problem is when the output variable is a real value, such as “dollars” or “weight”.
+2) Classification:-  A classification problem is when the output variable is a category, such as “red” or “blue” or “disease” and “no disease”.
+
+# Unsupervised learning:-
+Supervised and Unsupervised Machine Learning Algorithms
+by Jason Brownlee on March 16, 2016 in Machine Learning Algorithms
+Tweet  Share
+Last Updated on August 20, 2020
+
+What is supervised machine learning and how does it relate to unsupervised machine learning?
+
+In this post you will discover supervised learning, unsupervised learning and semi-supervised learning. After reading this post you will know:
+
+About the classification and regression supervised learning problems.
+About the clustering and association unsupervised learning problems.
+Example algorithms used for supervised and unsupervised problems.
+A problem that sits in between supervised and unsupervised learning called semi-supervised learning.
+Kick-start your project with my new book Master Machine Learning Algorithms, including step-by-step tutorials and the Excel Spreadsheet files for all examples.
+
+Let’s get started.
+
+Supervised and Unsupervised Machine Learning Algorithms
+Supervised and Unsupervised Machine Learning Algorithms
+Photo by US Department of Education, some rights reserved.
+
+Supervised Machine Learning
+The majority of practical machine learning uses supervised learning.
+
+Supervised learning is where you have input variables (x) and an output variable (Y) and you use an algorithm to learn the mapping function from the input to the output.
+
+Y = f(X)
+The goal is to approximate the mapping function so well that when you have new input data (x) that you can predict the output variables (Y) for that data.
+It is called supervised learning because the process of an algorithm learning from the training dataset can be thought of as a teacher supervising the learning process.
+We know the correct answers, the algorithm iteratively makes predictionson the training data and is corrected by the teacher. Learning stops when the algorithm achieves an 
+acceptable level of performanc 
+
+Supervised learning problems can be further grouped into regression and classification problems.
+
+Classification: A classification problem is when the output variable is a category, such as “red” or “blue” or “disease” and “no disease”.
+Regression: A regression problem is when the output variable is a real value, such as “dollars” or “weight”.
+Some common types of problems built on top of classification and regression include recommendation and time series prediction respectively.
+
+Some popular examples of supervised machine learning algorithms are:
+
+Linear regression for regression problems.
+Random forest for classification and regression problems.
+Support vector machines for classification problems.
+Unsupervised Machine Learning
+Unsupervised learning is where you only have input data (X) and no corresponding output variables.
+
+The goal for unsupervised learning is to model the underlying structure or distribution in the data in order to learn more about the data.
+
+These are called unsupervised learning because unlike supervised learning above there is no correct answers and there is no teacher. Algorithms are left to their own devises to discover and present the interesting structure in the data.
+
+Unsupervised learning problems can be further grouped into clustering and association problems.
+Clustering: A clustering problem is where you want to discover the inherent groupings in the data, such as grouping customers by purchasing behavior.
+Association:  An association rule learning problem is where you want to discover rules that describe large portions of your data, such as people that buy X also tend to buy Y.
+Some popular examples of unsupervised learning algorithms are:
+
+k-means for clustering problems.
+Apriori algorithm for association rule learning problems.
+
